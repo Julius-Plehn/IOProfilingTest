@@ -15,6 +15,7 @@ $ make scorep
 $ ./writefile NumberOfElements Mode Iterations
 ```
 **Mode 1:** Send data to single process which writes the data
+
 **Mode 2:** All processes write their own data by using an offset
 
 ### Example
