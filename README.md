@@ -20,5 +20,5 @@ $ ./writefile NumberOfElements Mode Iterations
 
 ### Example
 ```sh
-$ ./writefile 100000000 2 10
+$ mpiexec -n 10 ./writefile 100000000 2 10
 ```
